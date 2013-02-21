@@ -37,6 +37,10 @@ pod 'AZCalendarView' , :podspec => 'https://raw.github.com/azu/AZCalendarView/de
 # Feedback form
 pod 'AAMFeedback', :podspec => 'https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec' #MIT
 
+# Review 
+
+pod 'appirater'
+
 # DEBUG
 pod 'PonyDebugger'
 # pod 'TestFlightSDK', '~> 1.2'

@@ -115,6 +115,13 @@ fork版はローカライズファイルもcocoapodsで持ってこれるのと�
 
 端末名情報はライブラリから外して、 [UIDeviceIdentifier](https://github.com/squarefrog/UIDeviceIdentifier "UIDeviceIdentifier") に依存するような作りに変更してある。
 
+# Review
+
+* [appirater]
+
+レビュー催促を表示するライブラリ.
+
+iOS6からのStoreKitを使ったアプリ内でAppStoreを開く方式にも対応してる
 
 # DEBUG
 
@@ -165,6 +172,7 @@ MockやStubsも持っているため、これ一つでひと通りはできる�
 [UIAlertView-Blocks]: https://github.com/jivadevoe/UIAlertView-Blocks  "jivadevoe/UIAlertView-Blocks · GitHub"
 [AZCalendarView]: https://github.com/azu/AZCalendarView  "azu/AZCalendarView · GitHub"
 [AAMFeedback]: https://github.com/azu/AAMFeedback  "AAMFeedback"
+[appirater]: https://github.com/arashpayan/appirater  "arashpayan/appirater · GitHub"
 [PonyDebugger]: https://github.com/square/PonyDebugger  "square/PonyDebugger · GitHub"
 [TestFlight SDK]: https://testflightapp.com/sdk/  "TestFlight » Beta Testing On The Fly"
 
