@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7C500B50454A4382BE4D0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 627BE22AF63E424684AB0F84 /* libPods.a */; };
 		732F1AE916D6153F00162058 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F1AE816D6153F00162058 /* UIKit.framework */; };
 		732F1AEB16D6153F00162058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F1AEA16D6153F00162058 /* Foundation.framework */; };
 		732F1AED16D6153F00162058 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F1AEC16D6153F00162058 /* CoreGraphics.framework */; };
@@ -16,9 +17,17 @@
 		732F1AFB16D6153F00162058 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 732F1AFA16D6153F00162058 /* Default.png */; };
 		732F1AFD16D6153F00162058 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 732F1AFC16D6153F00162058 /* Default@2x.png */; };
 		732F1AFF16D6153F00162058 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 732F1AFE16D6153F00162058 /* Default-568h@2x.png */; };
+		73BF838E16D6175700F15EAE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BF838D16D6175700F15EAE /* SenTestingKit.framework */; };
+		73BF838F16D6175700F15EAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F1AE816D6153F00162058 /* UIKit.framework */; };
+		73BF839016D6175700F15EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732F1AEA16D6153F00162058 /* Foundation.framework */; };
+		73BF839616D6175700F15EAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73BF839416D6175700F15EAE /* InfoPlist.strings */; };
+		73BF839916D6175700F15EAE /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BF839816D6175700F15EAE /* Tests.m */; };
+		C8C58D1363BF40A9AEF1D512 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1B78451EA4464EBD300DE4 /* libPods-Tests.a */; settings = {}; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1B78451EA4464EBD300DE4 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627BE22AF63E424684AB0F84 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		732F1AE516D6153F00162058 /* AZPodfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZPodfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		732F1AE816D6153F00162058 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		732F1AEA16D6153F00162058 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +41,15 @@
 		732F1AFA16D6153F00162058 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		732F1AFC16D6153F00162058 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		732F1AFE16D6153F00162058 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		73BF838C16D6175700F15EAE /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BF838D16D6175700F15EAE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		73BF839316D6175700F15EAE /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		73BF839516D6175700F15EAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73BF839716D6175700F15EAE /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
+		73BF839816D6175700F15EAE /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		73BF839A16D6175700F15EAE /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		CDC4C7A057574CE1973E93A4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D558D6618A5E4FCF8CAE1394 /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +60,18 @@
 				732F1AE916D6153F00162058 /* UIKit.framework in Frameworks */,
 				732F1AEB16D6153F00162058 /* Foundation.framework in Frameworks */,
 				732F1AED16D6153F00162058 /* CoreGraphics.framework in Frameworks */,
+				2C7C500B50454A4382BE4D0B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BF838816D6175700F15EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BF838E16D6175700F15EAE /* SenTestingKit.framework in Frameworks */,
+				73BF838F16D6175700F15EAE /* UIKit.framework in Frameworks */,
+				73BF839016D6175700F15EAE /* Foundation.framework in Frameworks */,
+				C8C58D1363BF40A9AEF1D512 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				732F1AEE16D6153F00162058 /* AZPodfile */,
+				73BF839116D6175700F15EAE /* Tests */,
 				732F1AE716D6153F00162058 /* Frameworks */,
 				732F1AE616D6153F00162058 /* Products */,
+				CDC4C7A057574CE1973E93A4 /* Pods.xcconfig */,
+				D558D6618A5E4FCF8CAE1394 /* Pods-Tests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				732F1AE516D6153F00162058 /* AZPodfile.app */,
+				73BF838C16D6175700F15EAE /* Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +105,9 @@
 				732F1AE816D6153F00162058 /* UIKit.framework */,
 				732F1AEA16D6153F00162058 /* Foundation.framework */,
 				732F1AEC16D6153F00162058 /* CoreGraphics.framework */,
+				627BE22AF63E424684AB0F84 /* libPods.a */,
+				73BF838D16D6175700F15EAE /* SenTestingKit.framework */,
+				3F1B78451EA4464EBD300DE4 /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,6 +136,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		73BF839116D6175700F15EAE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				73BF839716D6175700F15EAE /* Tests.h */,
+				73BF839816D6175700F15EAE /* Tests.m */,
+				73BF839216D6175700F15EAE /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		73BF839216D6175700F15EAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73BF839316D6175700F15EAE /* Tests-Info.plist */,
+				73BF839416D6175700F15EAE /* InfoPlist.strings */,
+				73BF839A16D6175700F15EAE /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +166,7 @@
 				732F1AE116D6153F00162058 /* Sources */,
 				732F1AE216D6153F00162058 /* Frameworks */,
 				732F1AE316D6153F00162058 /* Resources */,
+				AA7273A218104ABDA281430D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -118,6 +176,25 @@
 			productName = AZPodfile;
 			productReference = 732F1AE516D6153F00162058 /* AZPodfile.app */;
 			productType = "com.apple.product-type.application";
+		};
+		73BF838B16D6175700F15EAE /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73BF839D16D6175700F15EAE /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				73BF838716D6175700F15EAE /* Sources */,
+				73BF838816D6175700F15EAE /* Frameworks */,
+				73BF838916D6175700F15EAE /* Resources */,
+				73BF838A16D6175700F15EAE /* ShellScript */,
+				1D087D5F40714E3FACABB76B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 73BF838C16D6175700F15EAE /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -138,9 +215,12 @@
 			mainGroup = 732F1ADC16D6153F00162058;
 			productRefGroup = 732F1AE616D6153F00162058 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				732F1AE416D6153F00162058 /* AZPodfile */,
+				73BF838B16D6175700F15EAE /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -157,7 +237,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73BF838916D6175700F15EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BF839616D6175700F15EAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D087D5F40714E3FACABB76B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
+		73BF838A16D6175700F15EAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		AA7273A218104ABDA281430D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		732F1AE116D6153F00162058 /* Sources */ = {
@@ -169,6 +302,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		73BF838716D6175700F15EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73BF839916D6175700F15EAE /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -176,6 +317,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				732F1AF216D6153F00162058 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73BF839416D6175700F15EAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73BF839516D6175700F15EAE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -243,6 +392,7 @@
 		};
 		732F1B0316D6153F00162058 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC4C7A057574CE1973E93A4 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AZPodfile/AZPodfile-Prefix.pch";
@@ -254,12 +404,45 @@
 		};
 		732F1B0416D6153F00162058 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC4C7A057574CE1973E93A4 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AZPodfile/AZPodfile-Prefix.pch";
 				INFOPLIST_FILE = "AZPodfile/AZPodfile-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		73BF839B16D6175700F15EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D558D6618A5E4FCF8CAE1394 /* Pods-Tests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		73BF839C16D6175700F15EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D558D6618A5E4FCF8CAE1394 /* Pods-Tests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -280,6 +463,15 @@
 			buildConfigurations = (
 				732F1B0316D6153F00162058 /* Debug */,
 				732F1B0416D6153F00162058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73BF839D16D6175700F15EAE /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73BF839B16D6175700F15EAE /* Debug */,
+				73BF839C16D6175700F15EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

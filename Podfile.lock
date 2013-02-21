@@ -1,0 +1,70 @@
+
+PODS:
+- AAMFeedback (0.0.1):
+  - UIDeviceIdentifier
+- AZCalendarView (0.0.2)
+- BSKeyboardControls (2.0)
+- JCAutocompletingSearch (0.9.6)
+- Kiwi (2.0.5)
+- MagicalRecord (2.1)
+- NSDate-Extensions (0.0.1)
+- OCHamcrest (1.9)
+- Overline (0.1.4)
+- PonyDebugger (0.0.1):
+  - SocketRocket
+- SVProgressHUD (0.9)
+- SVWebViewController (0.1)
+- SocketRocket (0.2.0)
+- TestFlightSDK (1.2.3.beta1)
+- Toast (2.0)
+- UIAlertView-Blocks (0.0.1)
+- UIDeviceIdentifier (0.1)
+- UIImage-Resize (0.1)
+
+DEPENDENCIES:
+- AAMFeedback (from `https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec')
+- AZCalendarView (from `https://raw.github.com/azu/AZCalendarView/develop/AZCalendarView.podspec')
+- BSKeyboardControls
+- JCAutocompletingSearch
+- Kiwi
+- MagicalRecord (~> 2.1)
+- NSDate-Extensions (from `https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec')
+- OCHamcrest
+- Overline
+- PonyDebugger
+- SVProgressHUD
+- SVWebViewController
+- TestFlightSDK (~> 1.2)
+- Toast
+- UIAlertView-Blocks
+- UIImage-Resize
+
+EXTERNAL SOURCES:
+  AAMFeedback:
+    :podspec: https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec
+  AZCalendarView:
+    :podspec: https://raw.github.com/azu/AZCalendarView/develop/AZCalendarView.podspec
+  NSDate-Extensions:
+    :podspec: https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec
+
+SPEC CHECKSUMS:
+  AAMFeedback: cd53b19db556b833e86d2f9023f430a2c48e0bca
+  AZCalendarView: c8250535abe696b8a48f60245b5a7ea3ab2c53a4
+  BSKeyboardControls: 5ed330cb19fa9f7dc7e6dc0b977b0788fbbd9c1b
+  JCAutocompletingSearch: 972fb03cdb537fec06d423d2652833807c142ac8
+  MagicalRecord: aedbebe987d02d1215718a904c93d7965e48e398
+  NSDate-Extensions: 06c4e1f4715883c58d27b4fb99329ed5c0e14d9f
+  Overline: 6704cd462f44cc277ecf50058221a087388b607b
+  PonyDebugger: 6da9db3a4ddd11bbb126b38910296d90c376a8b9
+  SVProgressHUD: 98935fbafaf0031df4a9cafca3c66eaf3da06967
+  SVWebViewController: 4004126ffdd39ede42bc645273e8eaae3de700f9
+  SocketRocket: a0529878e3c4c200196fa3a7e2ac1ef34aa33ffe
+  TestFlightSDK: f638b08651a37af099e40c47241fc58fd3cb1a66
+  Toast: 05f46f9d48ddf6e29193f802b038e4fb41f806fa
+  UIAlertView-Blocks: 7689ad7dd941417e7a7da81507482bc6f4f15bcd
+  UIDeviceIdentifier: 64036321b0f77ff41b4200002f0c138431c00d86
+  UIImage-Resize: 8372efb7144f060a3482c8915388829787fe4b7c
+  Kiwi: 89ade77eb49c889178cb2779e02514a7b9b9449e
+  OCHamcrest: f8393efd5a49d91879be573635d6183effacc0ab
+
+COCOAPODS: 0.16.3
