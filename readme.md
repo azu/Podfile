@@ -4,7 +4,7 @@
 
 ライブラリは [CocoaPods] 経由で管理、インストールする。
 
-``Podfile`` もレポジトリに入っています。
+[Podfile](Podfile) もレポジトリに入っています。
 
 # CoreData
 
