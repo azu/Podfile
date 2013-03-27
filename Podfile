@@ -39,7 +39,7 @@ pod 'AAMFeedback', :podspec => 'https://raw.github.com/azu/AAMFeedback/master/AA
 
 # Review 
 
-pod 'appirater'
+pod 'Appirater'
 
 # DEBUG
 pod 'PonyDebugger'
