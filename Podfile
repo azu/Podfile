@@ -35,7 +35,7 @@ pod 'UIAlertView-Blocks' #MIT
 pod 'AZCalendarView' , :podspec => 'https://raw.github.com/azu/AZCalendarView/develop/AZCalendarView.podspec' #MIT
 
 # Feedback form
-pod 'AAMFeedback', :podspec => 'https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec' #MIT
+pod 'AAMFeedback', :podspec => 'https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec' #BSD
 
 # Review 
 

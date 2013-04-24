@@ -1,43 +1,42 @@
-
 PODS:
-- AAMFeedback (0.0.1):
-  - UIDeviceIdentifier
-- AZCalendarView (0.0.2)
-- Appirater (1.0.1)
-- BSKeyboardControls (2.0)
-- JCAutocompletingSearch (0.9.6)
-- Kiwi (2.0.5)
-- MagicalRecord (2.1)
-- NSDate-Extensions (0.0.1)
-- OCHamcrest (1.9)
-- Overline (0.1.4)
-- PonyDebugger (0.0.1):
-  - SocketRocket
-- SVProgressHUD (0.9)
-- SVWebViewController (0.1)
-- SocketRocket (0.2.0)
-- Toast (2.0)
-- UIAlertView-Blocks (0.0.1)
-- UIDeviceIdentifier (0.1)
-- UIImage-Resize (0.1)
+  - AAMFeedback (0.0.1):
+    - UIDeviceIdentifier
+  - Appirater (1.0.1)
+  - AZCalendarView (0.0.2)
+  - BSKeyboardControls (2.0)
+  - JCAutocompletingSearch (0.9.6)
+  - Kiwi (2.0.5)
+  - MagicalRecord (2.1)
+  - NSDate-Extensions (0.0.1)
+  - OCHamcrest (1.9)
+  - Overline (0.1.4)
+  - PonyDebugger (0.0.1):
+    - SocketRocket
+  - SocketRocket (0.2.0)
+  - SVProgressHUD (0.9)
+  - SVWebViewController (0.1)
+  - Toast (2.0)
+  - UIAlertView-Blocks (0.0.1)
+  - UIDeviceIdentifier (0.1)
+  - UIImage-Resize (0.1)
 
 DEPENDENCIES:
-- AAMFeedback (from `https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec')
-- AZCalendarView (from `https://raw.github.com/azu/AZCalendarView/develop/AZCalendarView.podspec')
-- Appirater
-- BSKeyboardControls
-- JCAutocompletingSearch
-- Kiwi
-- MagicalRecord (~> 2.1)
-- NSDate-Extensions (from `https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec')
-- OCHamcrest
-- Overline
-- PonyDebugger
-- SVProgressHUD
-- SVWebViewController
-- Toast
-- UIAlertView-Blocks
-- UIImage-Resize
+  - AAMFeedback (from `https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec`)
+  - Appirater
+  - AZCalendarView (from `https://raw.github.com/azu/AZCalendarView/develop/AZCalendarView.podspec`)
+  - BSKeyboardControls
+  - JCAutocompletingSearch
+  - Kiwi
+  - MagicalRecord (~> 2.1)
+  - NSDate-Extensions (from `https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec`)
+  - OCHamcrest
+  - Overline
+  - PonyDebugger
+  - SVProgressHUD
+  - SVWebViewController
+  - Toast
+  - UIAlertView-Blocks
+  - UIImage-Resize
 
 EXTERNAL SOURCES:
   AAMFeedback:
@@ -49,22 +48,22 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AAMFeedback: 5f1eb3ea01095bacc160d816700e96cfb86060a4
-  AZCalendarView: c8250535abe696b8a48f60245b5a7ea3ab2c53a4
   Appirater: c35256f3cf5acec56d3d167939d210ffa1e65f94
-  BSKeyboardControls: 5ed330cb19fa9f7dc7e6dc0b977b0788fbbd9c1b
+  AZCalendarView: c8250535abe696b8a48f60245b5a7ea3ab2c53a4
+  BSKeyboardControls: b24def9d769f0990d228abb4e525492cb68a2189
   JCAutocompletingSearch: 972fb03cdb537fec06d423d2652833807c142ac8
+  Kiwi: 89ade77eb49c889178cb2779e02514a7b9b9449e
   MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
   NSDate-Extensions: 06c4e1f4715883c58d27b4fb99329ed5c0e14d9f
+  OCHamcrest: f8393efd5a49d91879be573635d6183effacc0ab
   Overline: 6704cd462f44cc277ecf50058221a087388b607b
   PonyDebugger: 6da9db3a4ddd11bbb126b38910296d90c376a8b9
-  SVProgressHUD: 98935fbafaf0031df4a9cafca3c66eaf3da06967
-  SVWebViewController: 2e3a367237bb7072e54e05c6eaa82d21a12ba676
   SocketRocket: bca43a94bd9aac3a629df42c06843402399ee67b
+  SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
+  SVWebViewController: 2e3a367237bb7072e54e05c6eaa82d21a12ba676
   Toast: 05f46f9d48ddf6e29193f802b038e4fb41f806fa
   UIAlertView-Blocks: 7689ad7dd941417e7a7da81507482bc6f4f15bcd
   UIDeviceIdentifier: 64036321b0f77ff41b4200002f0c138431c00d86
   UIImage-Resize: 8372efb7144f060a3482c8915388829787fe4b7c
-  Kiwi: 89ade77eb49c889178cb2779e02514a7b9b9449e
-  OCHamcrest: f8393efd5a49d91879be573635d6183effacc0ab
 
-COCOAPODS: 0.16.4
+COCOAPODS: 0.18.1
