@@ -21,7 +21,7 @@ CoreDataを扱いやすくするためのライブラリ
 
 # NSDate util
 
-* [NSDate-AZExtensions]
+* [NSDate-Escort]
 
 NSDateを扱うカテゴリライブラリで日付の操作などのメソッドがまとまっているので、これがあると日付操作が大体1行で色々出来ます。
 
