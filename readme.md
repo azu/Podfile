@@ -23,8 +23,10 @@ CoreDataを扱いやすくするためのライブラリ
 
 * [NSDate-AZExtensions]
 
-[NSDate-Extensions](https://github.com/erica/NSDate-Extensions "NSDate-Extensions") をforkして、
-バグ修正と少しメソッドを追加ものです。
+NSDateを扱うカテゴリライブラリで日付の操作などのメソッドがまとまっているので、これがあると日付操作が大体1行で色々出来ます。
+
+[NSDate-Extensions](https://github.com/erica/NSDate-Extensions "NSDate-Extensions") と同等のAPIに加えて
+幾つか追加機能があります。(importを変えるだけで殆ど動作します)
 
 # Objective-C utilities
 
@@ -110,7 +112,7 @@ cocoapodsでインストールされるCore側をいじらないで、実装(Imp
 
 [fladdict/AAMFeedback · GitHub](https://github.com/fladdict/AAMFeedback "fladdict/AAMFeedback · GitHub") の fork.
 
-本家が止まってたのでforkしたけど、最近活発になってきてるようなので戻してもいいかもしれない。
+本家があまり更新されないのでforkして色々いじったもの。
 fork版はローカライズファイルもcocoapodsで持ってこれるのと、背景画像など必要になったものを少し追加してある。
 
 端末名情報はライブラリから外して、 [UIDeviceIdentifier](https://github.com/squarefrog/UIDeviceIdentifier "UIDeviceIdentifier") に依存するような作りに変更してある。
@@ -175,6 +177,6 @@ MockやStubsも持っているため、これ一つでひと通りはできる�
 [appirater]: https://github.com/arashpayan/appirater  "arashpayan/appirater · GitHub"
 [PonyDebugger]: https://github.com/square/PonyDebugger  "square/PonyDebugger · GitHub"
 [TestFlight SDK]: https://testflightapp.com/sdk/  "TestFlight » Beta Testing On The Fly"
-
+[NSDate-Escort]: https://github.com/azu/NSDate-Escort  "azu/NSDate-Escort"
 [Kiwi]: https://github.com/allending/Kiwi  "allending/Kiwi · GitHub"
 [OCHamcrest]: https://github.com/hamcrest/OCHamcrest  "hamcrest/OCHamcrest · GitHub"
