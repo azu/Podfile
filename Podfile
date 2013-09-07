@@ -5,8 +5,7 @@ platform :ios, '5.0'
 pod 'MagicalRecord', '~> 2.1' #MIT
 
 # NSDate util
-# fix some issue & add methods
-pod 'NSDate-Extensions', :podspec => 'https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec' #BSD
+pod 'NSDate-Escort'
 
 # Objective-C utilities
 pod 'Overline' # MIT
@@ -35,7 +34,7 @@ pod 'UIAlertView-Blocks' #MIT
 pod 'AZCalendarView' , :podspec => 'https://raw.github.com/azu/AZCalendarView/develop/AZCalendarView.podspec' #MIT
 
 # Feedback form
-pod 'AAMFeedback', :podspec => 'https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec' #BSD
+pod 'AAMFeedback', :podspec => 'https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec' #New BSD
 
 # Review 
 

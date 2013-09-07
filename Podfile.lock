@@ -1,18 +1,18 @@
 PODS:
-  - AAMFeedback (0.0.1):
+  - AAMFeedback (0.0.6):
     - UIDeviceIdentifier
-  - Appirater (1.0.1)
+  - Appirater (1.0.5)
   - AZCalendarView (0.0.2)
   - BSKeyboardControls (2.0)
   - JCAutocompletingSearch (0.9.6)
-  - Kiwi (2.0.5)
+  - Kiwi (2.2)
   - MagicalRecord (2.1)
-  - NSDate-Extensions (0.0.1)
-  - OCHamcrest (1.9)
-  - Overline (0.1.4)
-  - PonyDebugger (0.0.1):
+  - NSDate-Escort (1.2.0)
+  - OCHamcrest (2.1.0)
+  - Overline (0.2.0)
+  - PonyDebugger (0.3.0):
     - SocketRocket
-  - SocketRocket (0.2.0)
+  - SocketRocket (0.3.1-beta2)
   - SVProgressHUD (0.9)
   - SVWebViewController (0.1)
   - Toast (2.0)
@@ -28,7 +28,7 @@ DEPENDENCIES:
   - JCAutocompletingSearch
   - Kiwi
   - MagicalRecord (~> 2.1)
-  - NSDate-Extensions (from `https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec`)
+  - NSDate-Escort
   - OCHamcrest
   - Overline
   - PonyDebugger
@@ -43,22 +43,20 @@ EXTERNAL SOURCES:
     :podspec: https://raw.github.com/azu/AAMFeedback/master/AAMFeedback.podspec
   AZCalendarView:
     :podspec: https://raw.github.com/azu/AZCalendarView/develop/AZCalendarView.podspec
-  NSDate-Extensions:
-    :podspec: https://raw.github.com/azu/NSDate-Extensions/master/NSDate-Extensions.podspec
 
 SPEC CHECKSUMS:
-  AAMFeedback: 5f1eb3ea01095bacc160d816700e96cfb86060a4
-  Appirater: c35256f3cf5acec56d3d167939d210ffa1e65f94
+  AAMFeedback: 8c69e7457a515bf363d593cd264cce59632ec8ca
+  Appirater: 5addfe3fac0aa85209b553f894b6b0533152786f
   AZCalendarView: c8250535abe696b8a48f60245b5a7ea3ab2c53a4
   BSKeyboardControls: b24def9d769f0990d228abb4e525492cb68a2189
   JCAutocompletingSearch: 972fb03cdb537fec06d423d2652833807c142ac8
-  Kiwi: 89ade77eb49c889178cb2779e02514a7b9b9449e
+  Kiwi: db174bba4ee8068b15d7122f1b22fb64b7c1d378
   MagicalRecord: 64e7184c240087a45e9588a722eaf05b0ad837f7
-  NSDate-Extensions: 06c4e1f4715883c58d27b4fb99329ed5c0e14d9f
-  OCHamcrest: f8393efd5a49d91879be573635d6183effacc0ab
-  Overline: 6704cd462f44cc277ecf50058221a087388b607b
-  PonyDebugger: 6da9db3a4ddd11bbb126b38910296d90c376a8b9
-  SocketRocket: bca43a94bd9aac3a629df42c06843402399ee67b
+  NSDate-Escort: f940f313d71ac25a20c126170074b576df391340
+  OCHamcrest: 96f5cb58fa0fd4b3609d37fe21e5246b259bba2a
+  Overline: 919535ad195d86b08550b0231869404ab183fc82
+  PonyDebugger: 72c2277c30f247390116ae328fe24082e0ed558e
+  SocketRocket: 7ac946bcce46287a791dfff3c1f8daa692821dae
   SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
   SVWebViewController: 2e3a367237bb7072e54e05c6eaa82d21a12ba676
   Toast: 05f46f9d48ddf6e29193f802b038e4fb41f806fa
@@ -66,4 +64,4 @@ SPEC CHECKSUMS:
   UIDeviceIdentifier: 64036321b0f77ff41b4200002f0c138431c00d86
   UIImage-Resize: 8372efb7144f060a3482c8915388829787fe4b7c
 
-COCOAPODS: 0.18.1
+COCOAPODS: 0.23.0
